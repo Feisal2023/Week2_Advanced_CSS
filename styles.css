@@ -1,1 +1,530 @@
-/* Paste your css code here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: darkblue;
+  color: #ffffff;
+  padding-top: 1.875rem;
+  height: 15.625rem;
+  
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+ 
+}
+
+
+header li {
+  list-style: none;
+  display: inline;
+  padding: 0 1.25rem 0 1.25rem;
+}
+
+header .branding {
+  display: block;
+}
+
+header .branding h1 {
+  margin-top: 2.5rem;
+  font-size: 3.4375rem;
+}
+
+header nav {
+ display: inline-block;
+  margin-top: 1.875rem;
+  text-align: center;
+  
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.sub-header {
+  height: 65.625rem;
+  background: #e6834c;
+}
+
+.sub-content {
+  padding-top: 6.25rem;
+  color: #ffffff;
+
+}
+
+.sub-content h1 {
+  text-transform: uppercase;
+  font-size: 6.25rem;
+}
+
+.sub-content h2 {
+  text-transform: uppercase;
+  font-size: 3.4375rem;
+}
+
+.sub-content img {
+  margin-top: 1.875rem;
+  width: 43.75rem;
+  height: 31.25rem;
+  border-radius: 50%;
+}
+.about {
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 1.25rem;
+  border-radius: 0.3125rem;
+}
+
+.about .container {
+  width: 80%;
+  background: lightblue;
+  margin-top: 3.4375rem;
+  
+}
+
+.about h1 {
+  padding-top: 1.875rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.about p {
+  padding: 1.875rem 3.75rem;
+  font-size: 2.5rem;
+  text-align: justify;
+}
+
+.boxes {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.box {
+  flex-basis: 30%;
+  background-color: white;
+  padding: 1.875rem;
+  text-align: center;
+}
+
+.box img {
+  width: 70%;
+  border-radius: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.box p {
+  font-size: 1.875rem;
+  line-height: 1.5;
+  color: #333;
+}
+.contact {
+  background-color: lightblue;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  height: 50rem;
+  
+}
+.contact h1 {
+  padding-top: 6.25rem;
+  font-size: 3.125rem;
+  padding-bottom: 1.875rem;
+}
+.contact form input[type="text"], 
+.contact form input[type="email"]{
+  width: 60%;
+  padding: 1.875rem;
+  border: 1px solid black;
+  border-radius: 0.3125rem;
+  font-size: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+.contact form textarea {
+  width: 60%;
+  padding: 2.5rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+  font-size: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+.contact button {
+  width: 60%;
+  padding: 1.875rem;
+  font-size: 1.875rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.625rem;
+  background: #e6834c;
+}
+footer {
+  height: 5rem;
+  background: #e6834c;
+  text-align: center;
+  padding-top: 1.875rem;
+
+}
+footer p {
+  font-size: 1.875rem;
+}
+
+@media (max-width: 500px) {
+  body {
+    background: none;
+  }
+  .container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  header {
+    background: darkblue;
+    color: #ffffff;
+    padding-top: 0.875rem;
+    height: 5.625rem;
+    
+  }
+ 
+header .branding h1 {
+  margin-top: 0.2rem;
+  font-size: 0.4375rem;
+}
+header nav {
+  display: inline-block;
+   margin-top: 0.275rem;
+   text-align: center;
+   
+ } 
+ header li {
+  list-style: none;
+  display: inline;
+  padding: 0 0.25rem 0 0.25rem;
+}
+
+ header nav a {
+  font-size: 0.25rem;
+ }
+ .sub-header {
+  height: 14.625rem;
+  background: #e6834c;
+}
+
+.sub-content {
+  padding-top: 2.25rem;
+  color: #ffffff;
+
+}
+
+.sub-content h1 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.sub-content h2 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.sub-content img {
+  margin-top: 0.875rem;
+  width: 10.75rem;
+  height: 5.25rem;
+  border-radius: 50%;
+}
+.about {
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 0.25rem;
+  border-radius: 0.3125rem;
+}
+
+.about .container {
+  width: 100%;
+  background: lightblue;
+  margin-top: 0.4375rem;
+  
+}
+
+.about h1 {
+  padding-top: 1.875rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.about p {
+  padding: 0.875rem 1.75rem;
+  font-size: 0.5rem;
+  text-align: justify;
+}
+
+.boxes {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.box {
+  flex-basis: 30%;
+  background-color: white;
+  padding: 0.875rem;
+  text-align: center;
+  
+}
+
+.box img {
+  width: 70%;
+  border-radius: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.box p {
+  font-size: 0.5rem;
+  line-height: 1.5;
+  color: #333;
+}
+.contact {
+  background-color: lightblue;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  height: 15rem;
+  
+}
+.contact h1 {
+  padding-top: 0.25rem;
+  font-size: 1.125rem;
+  padding-bottom: 0.875rem;
+}
+.contact form input[type="text"], 
+.contact form input[type="email"]{
+  width: 80%;
+  padding: 0.25rem;
+  border: 1px solid black;
+  border-radius: 0.3125rem;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+.contact form textarea {
+  width: 80%;
+  padding: 0.25rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+.contact button {
+  width: 80%;
+  padding: 0.25rem;
+  font-size: 0.875rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.625rem;
+  background: #e6834c;
+}
+footer {
+  height: 3rem;
+  background: #e6834c;
+  text-align: center;
+  padding-top: 0.875rem;
+
+}
+footer p {
+  font-size: 0.5rem;
+}
+}
+
+
+@media (max-width: 800px) {
+  body {
+    background: none;
+  }
+  .container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  header {
+    background: darkblue;
+    color: #ffffff;
+    padding-top: 0.875rem;
+    height: 5.625rem;
+    
+  }
+ 
+header .branding h1 {
+  margin-top: 0.2rem;
+  font-size: 1.4375rem;
+}
+header nav {
+  display: inline-block;
+   margin-top: 0.275rem;
+   text-align: center;
+   
+ } 
+ header li {
+  list-style: none;
+  display: inline;
+  padding: 0 0.25rem 0 0.25rem;
+}
+
+ header nav a {
+  font-size: 0.75rem;
+ }
+ .sub-header {
+  height: 14.625rem;
+  background: #e6834c;
+}
+
+.sub-content {
+  padding-top: 2.25rem;
+  color: #ffffff;
+
+}
+
+.sub-content h1 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.sub-content h2 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.sub-content img {
+  margin-top: 0.875rem;
+  width: 10.75rem;
+  height: 5.25rem;
+  border-radius: 50%;
+}
+.about {
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 0.25rem;
+  border-radius: 0.3125rem;
+}
+
+.about .container {
+  width: 100%;
+  background: lightblue;
+  margin-top: 0.4375rem;
+  
+}
+
+.about h1 {
+  padding-top: 1.875rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.about p {
+  padding: 0.875rem 1.75rem;
+  font-size: 0.5rem;
+  text-align: justify;
+}
+
+.boxes {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.box {
+  flex-basis: 30%;
+  background-color: white;
+  padding: 0.875rem;
+  text-align: center;
+  
+}
+
+.box img {
+  width: 70%;
+  border-radius: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.box p {
+  font-size: 0.5rem;
+  line-height: 1.5;
+  color: #333;
+}
+.contact {
+  background-color: lightblue;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  height: 15rem;
+  
+}
+.contact h1 {
+  padding-top: 0.25rem;
+  font-size: 1.125rem;
+  padding-bottom: 0.875rem;
+}
+.contact form input[type="text"], 
+.contact form input[type="email"]{
+  width: 80%;
+  padding: 0.25rem;
+  border: 1px solid black;
+  border-radius: 0.3125rem;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+.contact form textarea {
+  width: 80%;
+  padding: 0.25rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+}
+.contact button {
+  width: 80%;
+  padding: 0.25rem;
+  font-size: 0.875rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.625rem;
+  background: #e6834c;
+}
+footer {
+  height: 3rem;
+  background: #e6834c;
+  text-align: center;
+  padding-top: 0.875rem;
+
+}
+footer p {
+  font-size: 0.5rem;
+}
+ 
+} 
